@@ -210,7 +210,6 @@ JSON * json_value_new(json_type type)
 {
 	JSON * obj = malloc(sizeof(JSON));
 	obj->type = type;
-	char c;
 	return obj;
 }
 
